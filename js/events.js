@@ -17,7 +17,7 @@ function pressIt(){
     })}
 
 function submitIt(){
-  $('p').on("click", function(){
+  $('form').on("submit", function(){
   return alert("Hey!")})
 }
 
