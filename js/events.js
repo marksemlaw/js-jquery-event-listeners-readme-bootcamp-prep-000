@@ -1,13 +1,14 @@
 function getIt(){
-  $('p').on("click", alert("Hey!"))
+  $('p').on("click", function(){
+  return alert("Hey!")})
 }
 
 function frameIt(){
-  $('p').on("click", alert("Hey!"))
+  $('img').on("click", )
 }
 
 function pressIt(){
-  $('p').on("click", alert("Hey!"))
+  $('p').on("keydown", alert("Hey!"))
 }
 
 function submitIt(){
