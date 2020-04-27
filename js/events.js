@@ -10,8 +10,8 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('form').on("keydown", function(){
-   if($("input:first").val() == 71) {
+  $('input').on("keydown", function(){
+   if($("input").val() == 71) {
     alert('you have pressed G')
    }
     })}
