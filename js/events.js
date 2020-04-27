@@ -4,15 +4,18 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on("click", )
+  $('p').on("click", function(){
+  return alert("Hey!")})
 }
 
 function pressIt(){
-  $('p').on("keydown", alert("Hey!"))
+  $('p').on("click", function(){
+  return alert("Hey!")})
 }
 
 function submitIt(){
-  $('p').on("click", alert("Hey!"))
+  $('p').on("click", function(){
+  return alert("Hey!")})
 }
 
 $(document).ready(function(){
