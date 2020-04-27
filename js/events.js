@@ -12,7 +12,8 @@ function frameIt(){
 
 function pressIt(){
   $('form').on("keydown", function(){
-  return alert("Hey!")})
+   if ($( "input:first" ).val() === "correct") {
+    alert('your form is going to be submitted now')})
 }
 
 function submitIt(){
