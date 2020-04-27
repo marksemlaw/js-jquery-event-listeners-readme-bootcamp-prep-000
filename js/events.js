@@ -4,8 +4,10 @@ function getIt(){
 }
 
 function frameIt(){
-  $('p').on("click", function(){
-  return alert("Hey!")})
+  $('img').on("load", function(){
+  output = $('img').append
+  return output
+  })
 }
 
 function pressIt(){
