@@ -5,7 +5,7 @@ function getIt(){
 
 function frameIt(){
   $('img').on("load", function(){
-  output = $('img').append
+  output = $('img').
   return output
   })
 }
