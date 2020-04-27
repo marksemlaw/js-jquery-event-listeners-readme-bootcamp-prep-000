@@ -12,9 +12,9 @@ function frameIt(){
 
 function pressIt(){
   $('form').on("keydown", function(){
-   if ($( "input:first" ).val() === "correct") {
-    alert('your form is going to be submitted now')})
-}
+   if ($("input:first").val() === 71) {
+    alert('you have pressed g')}
+    })}
 
 function submitIt(){
   $('p').on("click", function(){
